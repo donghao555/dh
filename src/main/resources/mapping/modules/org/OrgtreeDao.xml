@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhg.javakc.modules.org.tree.dao.OrgtreeDao">
+<mapper namespace="com.zhg.yunl.modules.org.tree.dao.OrgtreeDao">
 	
 	<resultMap type="orgtree" id="orgtreeMap">
 		<id property="id" column="org_tree_id"/>

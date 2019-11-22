@@ -13,7 +13,7 @@
 	<!--属性:value    必需 代码表中的真实值-->
 	<tag>
 		<name>show</name>
-		<tagclass>com.zhg.javakc.base.util.tag.ShowTag</tagclass>
+		<tagclass>com.zhg.yunl.base.util.tag.ShowTag</tagclass>
 		<bodycontent>JSP</bodycontent>
 		<attribute>
 			<name>value</name>
@@ -35,7 +35,7 @@
 	<!--属性:format  可选 日期格式，如果设置此属性，type属性将失效  -->
 	<tag>
 		<name>date</name>
-		<tagclass>com.zhg.javakc.base.util.tag.DateTag</tagclass>
+		<tagclass>com.zhg.yunl.base.util.tag.DateTag</tagclass>
 		<bodycontent>JSP</bodycontent>
 		<attribute>
 			<name>times</name>
@@ -67,7 +67,7 @@
 	<!--zhg:select id="pte.rwm.resTreeCd" name="pte.rwm.resTreeCd" onChange="change()" codeTp='${JsonList}' def="true"-->
 	<tag>
 		<name>select</name>
-		<tagclass>com.zhg.javakc.base.util.tag.SelectTag</tagclass>
+		<tagclass>com.zhg.yunl.base.util.tag.SelectTag</tagclass>
 		<bodycontent>JSP</bodycontent>
 		<attribute>
 			<name>name</name>
@@ -117,7 +117,7 @@
 	<!--zhg:menu role="id" -->
 	<tag>
 		<name>menu</name>
-		<tagclass>com.zhg.javakc.base.util.tag.MenuTag</tagclass>
+		<tagclass>com.zhg.yunl.base.util.tag.MenuTag</tagclass>
 		<bodycontent>JSP</bodycontent>
 		<attribute>
 			<name>role</name>

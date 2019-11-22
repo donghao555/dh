@@ -22,7 +22,7 @@
 
   <!-- 数据字典初始化监听器, 装载基础数据 -->
   <listener>
-    <listener-class>com.zhg.javakc.base.util.listener.DictionaryListener</listener-class>
+    <listener-class>com.zhg.yunl.base.util.listener.DictionaryListener</listener-class>
   </listener>
 
   <!-- 配置Log4j监听器 -->
@@ -111,7 +111,7 @@
   <servlet>
     <servlet-name>init</servlet-name>
     <servlet-class>
-      com.zhg.javakc.base.util.servlet.InitServlet
+        com.zhg.yunl.base.util.servlet.InitServlet
     </servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>

@@ -11,7 +11,7 @@
                         http://www.springframework.org/schema/tx  
                         http://www.springframework.org/schema/tx/spring-tx.xsd">
 	<!-- 自动扫描 -->
-	<context:component-scan base-package="com.zhg.javakc">
+	<context:component-scan base-package="com.zhg.yunl">
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 	
@@ -65,7 +65,7 @@
 		<!-- mybatis自动分页插件 -->
 		<property name="plugins">
 		    <array>
-		    	<bean class="com.zhg.javakc.base.page.PaginationInterceptor">
+		    	<bean class="com.zhg.yunl.base.page.PaginationInterceptor">
 		    		<property name="type" value="${jdbc.type}"></property>
 		    	</bean>
 		    </array>
@@ -74,7 +74,7 @@
 
 	<!-- DAO接口所在包名，Spring会自动查找其下的类 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.zhg.javakc" />
+		<property name="basePackage" value="com.zhg.yunl" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 	</bean>
 

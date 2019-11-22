@@ -23,11 +23,11 @@
 	
 	<!-- 配置mybatis映射对象别名 -->
 	<typeAliases>
-		<typeAlias type="com.zhg.javakc.modules.system.user.entity.UserEntity" alias="user" />
-		<typeAlias type="com.zhg.javakc.modules.system.role.entity.RoleEntity" alias="role" />
-		<typeAlias type="com.zhg.javakc.modules.system.menu.entity.MenuEntity" alias="menu" />
-		<typeAlias type="com.zhg.javakc.modules.dictionary.entity.DictionaryEntity" alias="dictionary" />
-		<typeAlias type="com.zhg.javakc.modules.org.tree.entity.OrgtreeEntity" alias="orgtree" />
+		<typeAlias type="com.zhg.yunl.modules.system.user.entity.UserEntity" alias="user" />
+		<typeAlias type="com.zhg.yunl.modules.system.role.entity.RoleEntity" alias="role" />
+		<typeAlias type="com.zhg.yunl.modules.system.menu.entity.MenuEntity" alias="menu" />
+		<typeAlias type="com.zhg.yunl.modules.dictionary.entity.DictionaryEntity" alias="dictionary" />
+		<typeAlias type="com.zhg.yunl.modules.org.tree.entity.OrgtreeEntity" alias="orgtree" />
 	</typeAliases>
 	
 </configuration>

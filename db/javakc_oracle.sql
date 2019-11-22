@@ -488,9 +488,9 @@ commit;
 prompt 30 records loaded
 prompt Loading DATA_USER...
 insert into DATA_USER (USER_ID, USER_NAME, LOGIN_NAME, LOGIN_PASS, USER_EMAIL, USER_PHONE, USER_SEX)
-values ('009565e5e14d4b679b0c6db2688d512e', '管理员', 'admin', '$shiro1$MD5$3$FSQYTgr0ZmByf0tBMSBy6g==$+YBULRmyPa+326I6JIr9BQ==', 'admin@javakc.com', '13888888888', 1);
+values ('009565e5e14d4b679b0c6db2688d512e', '管理员', 'admin', '$shiro1$MD5$3$FSQYTgr0ZmByf0tBMSBy6g==$+YBULRmyPa+326I6JIr9BQ==', 'admin@yunl.com', '13888888888', 1);
 insert into DATA_USER (USER_ID, USER_NAME, LOGIN_NAME, LOGIN_PASS, USER_EMAIL, USER_PHONE, USER_SEX)
-values ('77c0b1e7675545ff9bae7e3ee6246623', '电控锁', 'dks', '$shiro1$MD5$3$GOAKoCiY5uVAOzH1Oo7Vow==$l7VqTX3ZmlqG3BTX0VCybQ==', 'dks@javakc.com', '13888888888', 2);
+values ('77c0b1e7675545ff9bae7e3ee6246623', '电控锁', 'dks', '$shiro1$MD5$3$GOAKoCiY5uVAOzH1Oo7Vow==$l7VqTX3ZmlqG3BTX0VCybQ==', 'dks@yunl.com', '13888888888', 2);
 commit;
 prompt 2 records loaded
 prompt Loading DATA_USER_ROLE...

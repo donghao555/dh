@@ -57,7 +57,7 @@
     </bean>
     
     <!-- 控制权限Shiro实现 -->
-    <bean id="securityRealm" class="com.zhg.javakc.modules.system.shiro.realm.SecurityRealm"></bean>
+    <bean id="securityRealm" class="com.zhg.yunl.modules.system.shiro.realm.SecurityRealm"></bean>
   	
   	<!-- shiro提供的JDBCrealm -->
     <bean id="jdbcRealm" class="org.apache.shiro.realm.jdbc.JdbcRealm">
